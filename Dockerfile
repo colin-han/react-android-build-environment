@@ -9,3 +9,6 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
     apt-get --quiet update --yes && \
     apt-get --quiet install --yes yarn build-essential && \
     rm -rf /var/lib/apt/lists/*
+
+# install react-native-cli
+RUN npm install -g react-native-cli
