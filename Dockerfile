@@ -1,4 +1,4 @@
-FROM colinhan/android-build-environment:version-1.0.2
+FROM colinhan/android-build-environment:version-1.1.3
 
 # install node.js
 RUN curl -sL https://deb.nodesource.com/setup_7.x | bash -

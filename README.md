@@ -1,3 +1,9 @@
+# version
+Android SDK: 23, 24, 25
+Andriod build tools: 23.0.1, 25.0.2
+Node.js: 7.10.0
+react-native-cli: 2.0.1
+
 # React-native android build environment
 You can use this docker image to build react-native app for android platform in docker container. For example, you can use this image for GitLab pipeline.
 
