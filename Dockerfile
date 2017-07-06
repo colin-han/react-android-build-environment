@@ -30,3 +30,6 @@ RUN echo y | /android-sdk-linux/tools/android --silent update sdk --no-ui --all 
     echo y | /android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter build-tools-25.0.2 && \
     echo y | /android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter build-tools-23.0.1 && \
     echo y | /android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter extra-android-m2repository
+
+ENV ANDROID_HOME=/android-sdk-linux
+ENV PATH=${PATH}:/android-sdk-linux/platform-tools/
